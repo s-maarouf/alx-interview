@@ -5,10 +5,11 @@
 
 def pascal_triangle(n: int):
     """Pascal's triangle"""
-    if n <= 0:
-        return [{}]
+    triangle = [[1]]
+    if type(n) is not int or n <= 0:
+        triangle = []
+        return triangle
     else:
-        triangle = [[1]]
         for i in range(n - 1):
             row = [1]
             for j in range(i):
