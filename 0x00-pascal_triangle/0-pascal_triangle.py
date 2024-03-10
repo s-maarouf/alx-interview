@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
+"""A function that takes n as input number and returns Pascal's triangle"""
+
+
 def pascal_triangle(n: int):
     if n <= 0:
         return [{}]
