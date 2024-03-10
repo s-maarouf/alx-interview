@@ -4,7 +4,7 @@
 
 
 def pascal_triangle(n: int):
-  """Pascal's triangle"""
+    """Pascal's triangle"""
     if n <= 0:
         return [{}]
     else:
