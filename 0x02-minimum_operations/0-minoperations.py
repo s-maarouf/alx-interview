@@ -26,4 +26,3 @@ def minOperations(n):
             done += clipboard
             ops_count += 1
     return ops_count
-  
