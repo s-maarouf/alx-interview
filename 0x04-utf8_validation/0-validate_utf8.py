@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+"""UTF-8 Validation module"""
+
 def validUTF8(data):
     """A function that returns True if data is UTF-8 valid otherwise False"""
 
