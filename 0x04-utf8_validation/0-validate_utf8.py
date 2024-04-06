@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 
 def validUTF8(data):
+    """A function that returns True if data is UTF-8 valid otherwise False"""
 
     def is_leading_byte(byte):
+        """Helper function to check if a byte is a valid leading byte"""
         return bin(byte).startswith('0b' + '1' * (8 - num_bytes) + '0')
 
     num_bytes = 0
