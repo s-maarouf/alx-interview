@@ -20,4 +20,3 @@ if (process.argv.length > 2) {
     });
   });
 }
-
